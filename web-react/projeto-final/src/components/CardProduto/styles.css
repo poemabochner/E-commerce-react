@@ -1,0 +1,26 @@
+.Master{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5%;
+    height: 300px;
+    width: 200px;
+    background-color: #9bbba9;
+    border-radius: 7%;
+    padding: 5px;
+}
+.imgProduto{
+    background-color: #f2f2f2;
+    height: 85%;
+    width: 100%;
+    border-radius: 7%
+}
+
+.nomeProduto{
+    background-color: #f2f2f2;
+    height: 13%;
+    width: 100%;
+    border-bottom-left-radius: 15% 100%;
+    border-bottom-right-radius: 15% 100%;
+    border-top-left-radius: 15% 100% ;
+    border-top-right-radius: 15% 100%;
+}

@@ -1,0 +1,23 @@
+.fundo{
+    background-color: #ce8056;
+}
+
+
+.CardList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 100vw;
+    gap: 30px;
+}
+.boxDescricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100vw;
+    background-color: #9bbba9;
+    border-bottom-left-radius: 8% 120%;
+    border-top-right-radius: 8% 120%;
+}
