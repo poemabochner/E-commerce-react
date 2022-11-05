@@ -1,5 +1,5 @@
 .fundo {
-  background-color: #ce8056;
+  background: linear-gradient(180deg, rgba(155,187,169,1) 40%, rgba(139,212,190,1) 80%);
 }
 
 .CardList {
@@ -17,6 +17,5 @@
   height: 30px;
   width: 100vw;
   background-color: #9bbba9;
-  border-bottom-left-radius: 8% 120%;
-  border-top-right-radius: 8% 120%;
+  border-radius: 20%;
 }
