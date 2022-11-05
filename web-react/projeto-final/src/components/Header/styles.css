@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bordas {
+  border-radius: 8px;
+  background-color: #ce8056;
+}
+
+#header {
+  background-color: #9bbba9;
+  width: 100%;
+  height: 6vh;
+  font-size: 2em;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img-logo,
+.img-carrinho {
+  height: 50px;
+}
+
+.nome-loja {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  gap: 30px;
+}
+
+.header-direita {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  font-size: 0.8em;
+}
+
+#sub-header {
+  background-color: #cbd5c0;
+  width: 100%;
+  height: 4vh;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoria-header {
+  display: flex;
+  gap: 80px;
+  color: #ffffff;
+}
+
+.search {
+  border: #ffffff solid;
+  width: 50vw;
+}
+
+@media (max-width: 857px) {
+  .categoria-header {
+    display: flex;
+    gap: 70px;
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 759px) {
+  .categoria-header {
+    display: flex;
+    gap: 50px;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 679px) {
+  .categoria-header {
+    display: flex;
+    gap: 40px;
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 639px) {
+  .categoria-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    font-size: 0.8em;
+  }
+  #header {
+    font-size: 1rem;
+    gap: 10px;
+  }
+
+  #sub-header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 417px) {
+  #header {
+    font-size: 1.1em;
+  }
+  #sub-header {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .categoria-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 288px) {
+  #header {
+    font-size: 1em;
+  }
+
+  #sub-header {
+    font-size: 1.5em;
+  }
+
+  .categoria-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    font-size: 0.7em;
+  }
+}
