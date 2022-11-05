@@ -27,7 +27,6 @@ export const Footer = () =>{
             <div id='CopyRight'>
                 <p>Copyright @2022 - Grupo 2 All rights reserved | Serratec Residencia em TIC Software</p>
             </div>
-
         </footer>
     )
 }
