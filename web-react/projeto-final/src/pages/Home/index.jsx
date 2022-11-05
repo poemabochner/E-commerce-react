@@ -1,10 +1,12 @@
 import { CardProduto } from "../../components/CardProduto";
+import { Header } from "../../components/Header";
 import "./styles.css";
+
 export function Home() {
   return (
     <div className='fundo'>
       <header>
-        <h1>header</h1>
+        <Header />
       </header>
       <div>
         <h1>Carrossel</h1>
