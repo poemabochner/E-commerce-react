@@ -4,7 +4,7 @@ export const Footer = () =>{
     return(
         <footer className='rodape'>
             <div id='titulo'>
-            <h1>Logo da loja</h1>
+            <h1>Pallett Gym</h1>
             </div>
             <div className='links'>
                 <a className='link' href='#home'>Home</a>
