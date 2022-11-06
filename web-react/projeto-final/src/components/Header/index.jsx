@@ -22,7 +22,7 @@ export function Header() {
             </nav >
             <nav id='sub-header'>
                 <div className='categoria-header'>
-                    <h1 className='bordas'>Categoria</h1>
+                    <button className='bordas'>Categoria</button>
                     <h1 className='bordas'>Categoria</h1>
                     <h1 className='bordas'>Categoria</h1>
                     <h1 className='bordas'>Categoria</h1>

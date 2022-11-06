@@ -6,16 +6,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 350px;
+  height: 21.87rem;
   width: 100vw;
-  gap: 30px;
+  gap: 1.9rem;
 }
 .boxDescricao {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30px;
+  height: 3rem;
   width: 100vw;
   background-color: #9bbba9;
   border-radius: 20%;
+  font-style: bold;
+  font-size: 2rem;
 }
