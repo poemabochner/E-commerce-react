@@ -42,13 +42,21 @@
 }
 
 .icones {
-  width: 3.5vw;
-  padding: 2vw;
-  margin: 5px;
+  width: 2.1rem;
+  margin: 1.5vw;
+  margin-inline: 3.5vw;
 }
 
 #CopyRight {
   font-size: 1.5vw;
+}
+
+@media (max-width: 1200px) {
+  .icones {
+    width: 3.5vw;
+    margin: 1.5vw;
+    margin-inline: 4vw;
+  }
 }
 
 @media (max-width: 900px) {
@@ -57,6 +65,17 @@
     margin-bottom: 2vw;
     margin-top: 0.5vw;
   }
+
+  .link {
+    font-size: 1.8vw;
+    padding: 4px;
+    
+}
+.link {
+  font-size: 2.5vw;
+  padding: 4px;
+  margin-inline: 1.5vw;
+}
 }
 
 @media (max-width: 500px) {
@@ -67,20 +86,10 @@
   }
 
   .link {
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-decoration: none;
     padding: 4px;
     margin-inline: 1.5vw;
-    background-color: #ce8056;
-    border: 1px solid none;
-    border-radius: 2vw;
-    color: #fff;
-  }
-
-  .icones {
-    width: 5vw;
-    padding: 2vw;
-    margin: 5px;
   }
 
   #CopyRight {

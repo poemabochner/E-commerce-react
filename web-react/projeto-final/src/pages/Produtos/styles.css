@@ -24,13 +24,12 @@
 
 .Colunas{
   width: 100%;
-  height: 100vh;
+  height: inherit;
   display: flex;
  flex-direction: row;
 }
 
 .col{
-  margin-top: 4px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
