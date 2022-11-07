@@ -1,7 +1,7 @@
 .fundo {
   background: linear-gradient(180deg, rgba(155,187,169,1) 40%, rgba(139,212,190,1) 80%);
 }
-/* .CardList {
+ .CardList {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -9,8 +9,8 @@
   height: max-content;
   width: 80vw;
   gap: 1.875rem;
-} */
-/* .boxDescricao {
+} 
+ .boxDescricao {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@
   border-radius: 20%;
   margin-top: 20px;
   margin-bottom: 20px;
-} */
+} 
 
 .Colunas{
   width: 100%;
