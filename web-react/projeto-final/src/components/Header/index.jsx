@@ -32,11 +32,11 @@ export function Header() {
             </nav >
             <nav id='sub-header'>
                 <div className='categoria-header'>
-                    <Link to={'/'} className='links'>Pokebolas</Link>
-                    <Link to={'/'} className='links'>Item</Link>
-                    <Link to={'/'} className='links'>Categoria</Link>
-                    <Link to={'/'} className='links'>Categoria</Link>
-                    <Link to={'/'} className='links'>Categoria</Link>
+                    <Link to={'/pokebolas'} className='links'>Pokebolas</Link>
+                    <Link to={'/medicina'} className='links'>Medicina</Link>
+                    <Link to={'/mints'} className='links'>Mints</Link>
+                    <Link to={'/incenso'} className='links'>Incenso</Link>
+                    <Link to={'/batalha'} className='links'>Itens de Batalha</Link>
                 </div>
             </nav>
         </>
