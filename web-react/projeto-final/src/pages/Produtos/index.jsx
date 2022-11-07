@@ -1,6 +1,7 @@
 import { CardProduto } from "../../components/CardProduto";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
+import { Link } from 'react-router-dom'
 import './styles.css'
 
 
@@ -15,49 +16,33 @@ export function Produtos() {
                     <div className="texto">
                         <h1>Destaques em Livros</h1>
                         <div className="linksColuna">
-                            <a className="linkC" href="links">Mais vendidos</a>
-                            <a className="linkC" href="links">Populares</a>
-                            <a className="linkC" href="links">Recomendados</a>
+                            <Link to={'/links'} className="linkC">Mais vendidos</Link>
+                            <Link to={'/links'} className="linkC" href="links">Populares</Link>
+                            <Link to={'/links'} className="linkC" href="links">Recomendados</Link>
                         </div>
                     </div>
                     <div className="texto">
                         <h1>Destaques em Livros</h1>
                         <div className="linksColuna">
-                            <a className="linkC" href="links">Mais vendidos</a>
-                            <a className="linkC" href="links">Populares</a>
-                            <a className="linkC" href="links">Recomendados</a>
+                            <Link to={'/links'} className="linkC">Mais vendidos</Link>
+                            <Link to={'/links'} className="linkC" href="links">Populares</Link>
+                            <Link to={'/links'} className="linkC" href="links">Recomendados</Link>
                         </div>
                     </div>
                     <div className="texto">
                         <h1>Destaques em Livros</h1>
                         <div className="linksColuna">
-                            <a className="linkC" href="links">Mais vendidos</a>
-                            <a className="linkC" href="links">Populares</a>
-                            <a className="linkC" href="links">Recomendados</a>
+                            <Link to={'/links'} className="linkC">Mais vendidos</Link>
+                            <Link to={'/links'} className="linkC" href="links">Populares</Link>
+                            <Link to={'/links'} className="linkC" href="links">Recomendados</Link>
                         </div>
                     </div>
                     <div className="texto">
                         <h1>Destaques em Livros</h1>
                         <div className="linksColuna">
-                            <a className="linkC" href="links">Mais vendidos</a>
-                            <a className="linkC" href="links">Populares</a>
-                            <a className="linkC" href="links">Recomendados</a>
-                        </div>
-                    </div>
-                    <div className="texto">
-                        <h1>Destaques em Livros</h1>
-                        <div className="linksColuna">
-                            <a className="linkC" href="links">Mais vendidos</a>
-                            <a className="linkC" href="links">Populares</a>
-                            <a className="linkC" href="links">Recomendados</a>
-                        </div>
-                    </div>
-                    <div className="texto">
-                        <h1>Destaques em Livros</h1>
-                        <div className="linksColuna">
-                            <a className="linkC" href="links">Mais vendidos</a>
-                            <a className="linkC" href="links">Populares</a>
-                            <a className="linkC" href="links">Recomendados</a>
+                            <Link to={'/links'} className="linkC">Mais vendidos</Link>
+                            <Link to={'/links'} className="linkC" href="links">Populares</Link>
+                            <Link to={'/links'} className="linkC" href="links">Recomendados</Link>
                         </div>
                     </div>
                 </asside>
@@ -66,27 +51,7 @@ export function Produtos() {
                         <h4>Produtos em Destaque</h4>
                     </div>
                     <div className="CardList">
-                        <CardProduto />
-                        <CardProduto />
-                        <CardProduto />
-                        <CardProduto />
-                    </div>
-                    <div className="boxDescricao">
-                        <h4>Ofertas</h4>
-                    </div>
-                    <div className="CardList">
-                        <CardProduto />
-                        <CardProduto />
-                        <CardProduto />
-                        <CardProduto />
-                    </div>
-                    <div className="boxDescricao">
-                        <h4>Mais pesquisados</h4>
-                    </div>
-                    <div className="CardList">
-                        <CardProduto />
-                        <CardProduto />
-                        <CardProduto />
+
                     </div>
                 </div>
             </div>

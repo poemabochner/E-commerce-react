@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;
+    background-image:url("/src/assets/snorlax.png");
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+.btnHome{
+    font-size: 1.2rem;
+    color: #000;
+    background-color: #ffcb05;
+    padding: 0.8vw;
+    border: none;
+    border-radius: 20px;
+    margin-left: 18px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    height: 82vh;
+    width: 100vw;
+    align-items: flex-end;
+}

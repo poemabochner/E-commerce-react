@@ -3,11 +3,11 @@
 }
 
 .CardList {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   height: 21.87rem;
-  width: 100vw;
+  width: 100% !important;
   gap: 1.9rem;
 }
 .boxDescricao {
@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   height: 3rem;
-  width: 100vw;
+  width: 100vw !important;
   background-color: #9bbba9;
   border-radius: 20%;
   font-style: bold;
