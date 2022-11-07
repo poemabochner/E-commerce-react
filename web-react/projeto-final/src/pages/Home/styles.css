@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   height: 3rem;
-  width: 100vw !important;
+  width: 100% !important;
   background-color: #9bbba9;
   border-radius: 20%;
   font-style: bold;

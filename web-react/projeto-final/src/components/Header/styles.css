@@ -4,9 +4,11 @@
 }
 
 .bordas {
-  padding: 4px;
+  /* padding: 4px; */
+  font-size: 1.3rem;
   border-radius: 2vh;
   background-color: #ce8056;
+  margin-left: 10%;
 }
 
 #header {
@@ -56,7 +58,8 @@
 
 .categoria-header {
   display: flex;
-  gap: 80px;
+  justify-content: space-around;
+  gap: 1%;
   color: #ffffff;
 }
 
