@@ -1,6 +1,7 @@
 import { CardProduto } from "../../components/CardProduto";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
+import Carrossel from "../../components/Carrossel";
 import "./styles.css";
 
 export function Home() {
@@ -86,7 +87,7 @@ export function Home() {
         <Header />
       </header>
       <div>
-        <h1>Carrossel</h1>
+        <Carrossel />
       </div>
       <div className="boxDescricao">
        Produtos em Destaque
