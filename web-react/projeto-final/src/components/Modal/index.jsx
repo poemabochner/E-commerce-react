@@ -3,9 +3,29 @@ import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react'
 import { CardProduto } from '../CardProduto';
 import './styles.css'
+import api from "../../services/api";
+
 
 let v;
+
+
 function MyVerticallyCenteredModal(props) {
+
+  const [qtdPedido, setQtdPedido] = useState()
+
+  async function atualizaCarrinho(pedido){
+  const postCarrinho = {
+    idProduto: pedido.id,
+    nome: pedido.nome,
+    valor: pedido.valor,
+    imagem: pedido.imagem,
+    quantidade: qtdPedido
+  }
+  await api.post('/carrinho', postCarrinho)
+  }
+
+
+
   return (
     <Modal
       {...props}
@@ -26,9 +46,12 @@ function MyVerticallyCenteredModal(props) {
             <h2>Descrição</h2>
             <h5>{v.descricao}</h5>
         <p>Quantidade em estoque: {v.qtdEstoque}</p>
-        <input type="number" placeholder='Qtd itens'/>
+        <input type="number" placeholder='Qtd itens' onChange={(e) => setQtdPedido(e.target.value)}/>
         <h2>Preço: {v.valor}₽</h2>
-        <Button className="btn-comprar" >Comprar</Button>
+        <Button className="btn-comprar" onClick={() =>{
+          props.onHide();
+          atualizaCarrinho(v);
+        }}>Comprar</Button>
         </div>
       </container>
       <Modal.Footer>

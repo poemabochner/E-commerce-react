@@ -47,7 +47,6 @@ export function Home() {
         <div className="CardList">
         {Random()}
           {rd.map((produto) => {
-            console.log(produto)
              return <ModalCards key={produto.id} produto={produto} />
           })}
         </div>
