@@ -1,44 +1,57 @@
-.Master{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5%;
-    height: 18.75rem;
-    width: 12.5rem;
-    background-color: #ce8056;
-    border-radius: 7%;
-    padding: 5px;
+.Master {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5%;
+  height: 18.75rem;
+  width: 12.5rem;
+  background-color: #ce8056;
+  border-radius: 7%;
+  padding: 5px;
 }
-.imgProduto{
-    background-color: #f2f2f2;
-    height: 85%;
-    width: 100%;
-    border-radius: 7%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.imgProduto {
+  background-color: #f2f2f2;
+  height: 85%;
+  width: 100%;
+  border-radius: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-img{
-    width: 70%;
-}
-
-.nomeProduto{
-    background-color: #f2f2f2;
-    height: 13%;
-    width: 100%;
-    border-bottom-left-radius: 15% 100%;
-    border-bottom-right-radius: 15% 100%;
-    border-top-left-radius: 15% 100% ;
-    border-top-right-radius: 15% 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5re;
-    font-weight: bold;
+img {
+  width: 70%;
 }
 
-@media(max-width: 330px){
-    .Master{
-    width: 64vw;
-    height: 50vh;
-} 
+.nomeProduto {
+  background-color: #f2f2f2;
+  height: 13%;
+  width: 100%;
+  border-bottom-left-radius: 15% 100%;
+  border-bottom-right-radius: 15% 100%;
+  border-top-left-radius: 15% 100%;
+  border-top-right-radius: 15% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+@media (max-width: 660px) {
+  .Master {
+    width: 20vw;
+    height: 20vh;
+  }
+  .nomeProduto {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .Master {
+    width: 26vw;
+    height: 26vh;
+  }
+
+  .nomeProduto {
+    font-size: 0.49rem;
+  }
 }

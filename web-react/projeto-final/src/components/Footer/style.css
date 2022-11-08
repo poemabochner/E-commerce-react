@@ -34,7 +34,7 @@
   color: #fff;
 }
 
-#CopyRight p{
+#CopyRight p {
   margin-top: 1rem;
 }
 
@@ -64,7 +64,6 @@
   margin-inline: 2.5vw;
 }
 
-
 @media (max-width: 1200px) {
   .icones {
     width: 3.5vw;
@@ -83,13 +82,12 @@
   .link {
     font-size: 1.8vw;
     padding: 4px;
-    
-}
-.link {
-  font-size: 2.5vw;
-  padding: 4px;
-  margin-inline: 1.5vw;
-}
+  }
+  .link {
+    font-size: 2.5vw;
+    padding: 4px;
+    margin-inline: 1.5vw;
+  }
 }
 
 @media (max-width: 500px) {
@@ -112,8 +110,6 @@
 }
 
 @media (max-width: 300px) {
-
-
   .link {
     font-size: 2.5vw;
     text-decoration: none;
