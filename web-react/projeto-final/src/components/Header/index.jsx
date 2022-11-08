@@ -19,10 +19,8 @@ export function Header() {
                             <img className='img-carrinho' src="https://cdn-icons-png.flaticon.com/512/3361/3361585.png" alt="Carrinho" />
                         </Link>
                         <Link to={'/carrinho'} className='carrinho'>Carrinho</Link>
-                        <a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_by_National_Pokédex_number">
-                            <img className='img-pokedex' src="https://cdn-icons-png.flaticon.com/512/188/188940.png" alt="Pokedex" />
-                        </a>
-                        <a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_by_National_Pokédex_number" className='pokedex'>Pokedex</a>
+                        <Link to={'/login'}><img className='img-pokedex' src='https://cdn-icons-png.flaticon.com/512/287/287226.png'></img></Link>
+                        <Link to={'/login'} className='pokedex'>Entrar</Link>
                         <Link><img className='img-produtos' src="https://cdn-icons-png.flaticon.com/512/188/188941.png" alt="Produtos" /></Link>
                         <Link to={'/produtos'} className='produtos'>Produtos</Link>
                     </div>
