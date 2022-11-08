@@ -46,16 +46,21 @@ function MyVerticallyCenteredModal(props) {
             <h2>Descrição</h2>
             <h5>{v.descricao}</h5>
         <p>Quantidade em estoque: {v.qtdEstoque}</p>
-        <input type="number" placeholder='Qtd itens' onChange={(e) => setQtdPedido(e.target.value)}/>
-        <h2>Preço: {v.valor}₽</h2>
-        <Button className="btn-comprar" onClick={() =>{
-          props.onHide();
-          atualizaCarrinho(v);
-        }}>Comprar</Button>
+        <input type="number" placeholder='nº de itens' onChange={(e) => setQtdPedido(e.target.value)}/>
+        <h5>Preço: {v.valor}₽</h5>
+        <br></br>
+        <button className="btn-comprar" onClick={() =>{
+          if(qtdPedido>0){
+            props.onHide();
+            atualizaCarrinho(v);
+          } else{
+            return alert("quantidade inválida")
+          }
+        }}>Comprar</button>
         </div>
       </container>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <button className='buttonFechar' onClick={props.onHide}>Fechar</button>
       </Modal.Footer>
     </Modal>
   );

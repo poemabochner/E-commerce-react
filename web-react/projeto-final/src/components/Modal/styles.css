@@ -1,9 +1,4 @@
-.botaoFundo{
-    background-color:transparent !important;
-}
-/* .tituloModal{
 
-} */
 .nomeProdutoModal{
     background-color: #f2f2f2;
     height: 13%;
@@ -16,6 +11,20 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
+}
+
+
+
+.botaoFundo{
+    background-color:transparent !important;
+}
+.tituloModal{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.nomeProduto{
+    background-color: transparent;
 }
 
 .containe{
@@ -33,7 +42,7 @@
 .imagemModalS{
     display: flex;
     justify-content: center;
-    width: 15rem;
+    width: 13rem;
 }
 
 .ColunaDescricao{
@@ -41,10 +50,31 @@
     flex-wrap: wrap;
 }
 .btn-comprar{
-    width: 100%;
-    border: none;
-    background-color: blue;
+    width: 20%;
+    border: grey 2px solid;
+    background-color: #ce8056;
+    margin-left: 25%;
+    border-radius: 5%;
+    height: 13.5%;
+    margin-bottom: 14px;
     
+}
+
+.btn-comprar:hover{
+    
+    opacity: 85%;
+}
+
+.buttonFechar{
+    width: 15%;
+    border: grey 2px solid;
+    background-color: #ce8056;
+    border-radius: 5%;
+    height: 30px;
+}
+
+.btn-comprar:hover{
+    opacity: 85%;
 }
 
 @media(max-width: 390px){
