@@ -189,6 +189,18 @@
     font-size: 0.7rem;
   }
 
+  .carrinho {
+    margin-right: 5px;
+  }
+
+  .pokedex {
+    margin-right: 5px;
+  }
+
+  .produtos {
+    margin-right: 5px;
+  }
+
   .img-carrinho {
     height: 20px;
     width: 20px;
@@ -221,12 +233,24 @@
 
 @media (max-width: 280px) {
   .nome-loja {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 
   .box-direita {
     font-size: 0.5rem;
     gap: 0px;
+  }
+
+  .carrinho {
+    margin-right: 15px;
+  }
+
+  .pokedex {
+    margin-right: 15px;
+  }
+
+  .produtos {
+    margin-right: 15px;
   }
 
   .img-logo {
@@ -235,7 +259,7 @@
   }
 
   .links {
-    font-size: 0.5em;
+    font-size: 0.4em;
     color: #ffffff;
     text-decoration: none;
   }
