@@ -6,6 +6,7 @@ import { Home } from './pages/Home'
 import { Carrinho } from './pages/Carrinho'
 import { Produtos } from './pages/Produtos'
 import { Erro404 } from './pages/Erro404'
+import Login from './pages/Login'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/carrinho" element={<Carrinho />} />
       <Route path="/produtos" element={<Produtos />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   ) 
 }

@@ -1,0 +1,36 @@
+
+.loginBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    margin-top: 7.5rem;
+    width: 100%;
+   
+}
+
+.loginTitulo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.loginTitulo img {
+    border: 2px solid;
+    border-radius: 70%;
+    border-color: gray;
+    width: 50px;
+    height: 50px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1{
+    width: 100%;
+}
