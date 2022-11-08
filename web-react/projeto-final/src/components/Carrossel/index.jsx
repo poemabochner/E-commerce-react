@@ -12,10 +12,10 @@ function Carrossel() {
           src="/src/components/Carrossel/961007.jpg"
           alt="First slide"
         />
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h3>Nome do Produto</h3>
           <p>descrição e preço</p>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item interval={5000}>
         <img
@@ -24,10 +24,10 @@ function Carrossel() {
           alt="Second slide"
         />
 
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
         <h3>Nome do Produto</h3>
           <p>descrição e preço</p>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item interval={5000}>
         <img
@@ -35,10 +35,10 @@ function Carrossel() {
           src="/src/components/Carrossel/979991.jpg"
           alt="Third slide"
         />
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
         <h3>Nome do Produto</h3>
           <p>descrição e preço</p>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
     </Carousel>
     </div>
