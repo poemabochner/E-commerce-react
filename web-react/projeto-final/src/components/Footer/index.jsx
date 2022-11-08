@@ -17,13 +17,13 @@ export const Footer = () =>{
             </div>
             <div id='icons'>
                 <a href='https://github.com/BilPinheiro/E-commerce-react'>
-                <img className='icones' src="/src/assets/whats.svg" alt="WhatsApp logo" />
+                <img className='icones' src="/src/assets/githubWhite.svg" alt="WhatsApp logo" />
                 </a>
                 <a href='https://github.com/BilPinheiro/E-commerce-react'>
-                <img className='icones' src="/src/assets/github.svg" alt="Github logo"></img>
+                <img className='icones' src="/src/assets/githubWhite.svg" alt="Github logo"></img>
                 </a>
                 <a href='https://github.com/BilPinheiro/E-commerce-react'>
-                <img className='icones' src="/src/assets/linkedin.svg" alt="linkedin logo" />
+                <img className='icones' src="/src/assets/githubWhite.svg" alt="linkedin logo" />
                 </a>
             </div>
             <div id='CopyRight'>

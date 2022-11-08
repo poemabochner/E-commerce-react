@@ -76,19 +76,13 @@ export function Produtos() {
           <div className="texto">
             <h1 onClick={() => {v =1; mudaFiltro();}}>Poke-Bolas</h1>
             <div className="linksColuna">
-              Mais vendidos Populares Recomendados
+            <Link className="linkC">Mais vendidos</Link>
             </div>
           </div>
           <div className="texto">
             <h1 onClick={() => {v =2; mudaFiltro();}}>Medicinas</h1>
             <div className="linksColuna">
               <Link className="linkC">Mais vendidos</Link>
-              <Link className="linkC" href="links">
-                Populares
-              </Link>
-              <Link className="linkC" href="links">
-                Recomendados
-              </Link>
             </div>
           </div>
           <div className="texto">
@@ -96,12 +90,6 @@ export function Produtos() {
             <div className="linksColuna">
               <Link to={"/links"} className="linkC">
                 Mais vendidos
-              </Link>
-              <Link to={"/links"} className="linkC" href="links">
-                Populares
-              </Link>
-              <Link to={"/links"} className="linkC" href="links">
-                Recomendados
               </Link>
             </div>
           </div>
@@ -111,12 +99,6 @@ export function Produtos() {
               <Link to={"/links"} className="linkC">
                 Mais vendidos
               </Link>
-              <Link to={"/links"} className="linkC" href="links">
-                Populares
-              </Link>
-              <Link to={"/links"} className="linkC" href="links">
-                Recomendados
-              </Link>
             </div>
           </div>
           <div className="texto">
@@ -124,12 +106,6 @@ export function Produtos() {
             <div className="linksColuna">
               <Link to={"/links"} className="linkC">
                 Mais vendidos
-              </Link>
-              <Link to={"/links"} className="linkC" href="links">
-                Populares
-              </Link>
-              <Link to={"/links"} className="linkC" href="links">
-                Recomendados
               </Link>
             </div>
           </div>

@@ -50,7 +50,7 @@ export function ModalCards({produto}) {
 
       <MyVerticallyCenteredModal
         show={modalShow}
-        onHide={() => setModalShow(false)}/>;
+        onHide={() => setModalShow(false)}/>
     </>
   );
 }

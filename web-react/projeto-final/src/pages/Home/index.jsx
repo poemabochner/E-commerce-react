@@ -48,21 +48,21 @@ export function Home() {
         {Random()}
           {rd.map((produto) => {
             console.log(produto)
-             return <ModalCards key={produto.id} produto={produto} />;
+             return <ModalCards key={produto.id} produto={produto} />
           })}
         </div>
         <div className="boxDescricao">Ofertas</div>
         <div className="CardList">
           {Random()}
           {rd.map((produto) => {
-            return <ModalCards key={produto.id} produto={produto} />;
+            return <ModalCards key={produto.id} produto={produto} />
           })}
         </div>
         <div className="boxDescricao">Mais pesquisados</div>
         <div className="CardList">
           {Random()}
           {rd.map((produto) => {
-            return <ModalCards key={produto.id} produto={produto} />;
+            return <ModalCards key={produto.id} produto={produto} />
           })}
         </div>
         <footer>
