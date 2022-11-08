@@ -13,30 +13,28 @@ export function Header() {
                     </div>
                 </div>
 
-                {/* <div className='search'>
-                    <h1>search</h1>
-                </div> */}
-
                 <div className='header-direita'>
                     <div className='box-direita'>
                         <Link to={'/carrinho'}>
-                            <img className='img-carrinho' src="https://cdn.icon-icons.com/icons2/851/PNG/512/Bag_icon-icons.com_67588.png" alt="Carrinho" />
+                            <img className='img-carrinho' src="https://cdn-icons-png.flaticon.com/512/3361/3361585.png" alt="Carrinho" />
                         </Link>
                         <Link to={'/carrinho'} className='carrinho'>Carrinho</Link>
                         <a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_by_National_Pokédex_number">
                             <img className='img-pokedex' src="https://cdn-icons-png.flaticon.com/512/188/188940.png" alt="Pokedex" />
                         </a>
                         <a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_by_National_Pokédex_number" className='pokedex'>Pokedex</a>
+                        <Link><img className='img-produtos' src="https://cdn-icons-png.flaticon.com/512/188/188941.png" alt="Produtos" /></Link>
+                        <Link to={'/produtos'} className='produtos'>Produtos</Link>
                     </div>
                 </div>
             </nav >
             <nav id='sub-header'>
                 <div className='categoria-header'>
-                    <Link to={'/pokebolas'} className='links'>Pokebolas</Link>
+                    {/* <Link to={'/pokebolas'} className='links'>Pokebolas</Link>
                     <Link to={'/medicina'} className='links'>Medicina</Link>
                     <Link to={'/mints'} className='links'>Mints</Link>
                     <Link to={'/incenso'} className='links'>Incenso</Link>
-                    <Link to={'/batalha'} className='links'>Itens de Batalha</Link>
+                    <Link to={'/batalha'} className='links'>Itens de Batalha</Link> */}
                 </div>
             </nav>
         </>

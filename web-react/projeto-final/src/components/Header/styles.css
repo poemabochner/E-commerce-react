@@ -22,21 +22,6 @@
   justify-content: space-between;
 }
 
-.img-carrinho {
-  height: 40px;
-  width: 40px;
-}
-
-.img-logo {
-  height: 50px;
-  width: 50px;
-}
-
-.img-pokedex {
-  height: 50px;
-  width: 60px;
-}
-
 .nome-loja {
   display: flex;
   align-items: center;
@@ -56,6 +41,7 @@
   align-items: flex-end;
   text-decoration: none;
   color: #fff;
+  gap: 5px;
 }
 
 .carrinho {
@@ -66,7 +52,32 @@
 .pokedex {
   color: #fff;
   text-decoration: none;
+  margin-right: 5px;
+}
+
+.produtos {
+  color: #fff;
+  text-decoration: none;
   margin-right: 10px;
+}
+
+.img-carrinho {
+  height: 40px;
+  width: 40px;
+}
+
+.img-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.img-pokedex {
+  height: 50px;
+  width: 50px;
+}
+.img-produtos {
+  height: 40px;
+  width: 35px;
 }
 
 #sub-header {
@@ -152,6 +163,11 @@
     height: 30px;
     width: 50px;
   }
+
+  .img-produtos {
+    height: 30px;
+    width: 35px;
+  }
   .categoria-header {
     gap: 15px;
   }
@@ -186,6 +202,11 @@
     height: 20px;
     width: 30px;
   }
+
+  .img-produtos {
+    height: 20px;
+    width: 20px;
+  }
   .categoria-header {
     gap: 15px;
   }
@@ -203,7 +224,8 @@
   }
 
   .box-direita {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
+    gap: 0px;
   }
 
   .img-logo {
