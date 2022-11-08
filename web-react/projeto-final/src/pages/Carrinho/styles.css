@@ -21,7 +21,6 @@ td {
     width: 72.5%;
 }
 
-
 .valorTotal{
     display: flex;
     justify-content: flex-end;
@@ -32,6 +31,7 @@ td {
 .fecharCompra{
         width: 72.5%;
         border: grey 2px solid;
+        font-size: 1.3rem;
         background-color: #ce8056;
         border-radius: 5%;
         height: 13.5%;
@@ -51,10 +51,22 @@ td {
     align-items: center;
 }
 
-.CUPOM{
+.VcDisseCupom{
     width: 72.5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.CUPOM{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1rem;
+    width: 15vw;
     border: grey 2px solid;
-    background-color: #ce8056;
-    border-radius: 5%;
-    height: 13.5%;
+    border-radius: 5px;
+    height: 10%;
+    margin-bottom: 1rem;
 }
