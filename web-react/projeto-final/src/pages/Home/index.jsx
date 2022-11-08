@@ -5,6 +5,7 @@ import Carrossel from "../../components/Carrossel";
 import "./styles.css";
 import { useState, useEffect } from "react";
 import api from "../../services/api";
+import { ModalCards } from "../../components/Modal";
 
 export function Home() {
   const [produtos, setProdutos] = useState([]);
@@ -32,6 +33,7 @@ export function Home() {
     }}
   };
 
+
   return (
     <>
       <div className="fundo">
@@ -46,21 +48,21 @@ export function Home() {
         {Random()}
           {rd.map((produto) => {
             console.log(produto)
-             return <CardProduto key={produto.id} produto={produto} />;
+             return <ModalCards key={produto.id} produto={produto} />;
           })}
         </div>
         <div className="boxDescricao">Ofertas</div>
         <div className="CardList">
           {Random()}
           {rd.map((produto) => {
-            return <CardProduto key={produto.id} produto={produto} />;
+            return <ModalCards key={produto.id} produto={produto} />;
           })}
         </div>
         <div className="boxDescricao">Mais pesquisados</div>
         <div className="CardList">
           {Random()}
           {rd.map((produto) => {
-            return <CardProduto key={produto.id} produto={produto} />;
+            return <ModalCards key={produto.id} produto={produto} />;
           })}
         </div>
         <footer>

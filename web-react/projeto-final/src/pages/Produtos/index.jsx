@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import "./styles.css";
 import api from "../../services/api";
 import { useState, useEffect } from "react";
+import { ModalCards } from "../../components/Modal";
 
 export function Produtos() {
   const [produtos, setProdutos] = useState([]);
@@ -142,7 +143,7 @@ export function Produtos() {
           </div>
           <div className="CardList">
             {produtosFiltrados.map((produto) => {
-              return <CardProduto key={produto.id} produto={produto} />;
+              return <ModalCards key={produto.id} produto={produto} />;
             })}
           </div>
         </div>

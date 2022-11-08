@@ -1,0 +1,23 @@
+.botaoFundo{
+    background-color:transparent !important;
+}
+.tituloModal{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+container{
+    padding: 0 1.5rem;
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+}
+.ColunaImagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.ColunaDescricao{
+    width: 20%;
+    flex-wrap: wrap;
+}
