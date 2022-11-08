@@ -14,21 +14,21 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <Modal.Header className='tituloModal' closeButton>
-        <h1>
+        <h1 className='nomeProduto'>
           {v.nome}
         </h1>
       </Modal.Header>
-      <container>
+      <container className="containe">
         <div className='ColunaImagem'>
           <img  className='imagemModalS' src={v.imagem} alt="" />
         </div>
         <div className='ColunaDescricoes'>
             <h2>Descrição</h2>
-            <h3>{v.descricao}</h3>
-        <h1>Quantidade em estoque: {v.qtdEstoque}</h1>
-        <input type="number" placeholder='Insira a quantidade desejada'/>
-        <h2>{v.valor}</h2>
-        <button>Comprar</button>
+            <h5>{v.descricao}</h5>
+        <p>Quantidade em estoque: {v.qtdEstoque}</p>
+        <input type="number" placeholder='Qtd itens'/>
+        <h2>Preço: {v.valor}₽</h2>
+        <Button className="btn-comprar" >Comprar</Button>
         </div>
       </container>
       <Modal.Footer>

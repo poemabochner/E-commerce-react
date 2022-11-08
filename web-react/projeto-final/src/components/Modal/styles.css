@@ -6,7 +6,11 @@
     justify-content: center;
     align-items: center;
 }
-container{
+.nomeProduto{
+    background-color: transparent;
+}
+
+.containe{
     padding: 0 1.5rem;
     display: flex;
     gap: 3rem;
@@ -17,7 +21,33 @@ container{
     justify-content: center;
     align-items: center;
     }
+
+.imagemModalS{
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+}
+
 .ColunaDescricao{
     width: 20%;
     flex-wrap: wrap;
+}
+.btn-comprar{
+    width: 100%;
+    border: none;
+    background-color: blue;
+    
+}
+
+@media(max-width: 390px){
+    .containe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imagemModalS{
+        width: 10rem;
+    }
 }
