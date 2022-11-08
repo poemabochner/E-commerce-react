@@ -69,9 +69,12 @@ export function Carrinho() {
         <div className="valorTotalDiv">
         <p className="valorTotal">Total: {total}₽</p>
         </div>
-        <button className="fecharCompra" onClick={fecharCompra}>Finalizar compra </button>
+        <div className="VcDisseCupom">
         <input className="CUPOM" type="text" placeholder="Insira o cupom" 
         onChange={(e) => setCupon(e.target.value)}/>
+        </div>
+       
+        <button className="fecharCompra" onClick={fecharCompra}>Finalizar compra </button>
       </body>
       <footer>
         <Footer />
