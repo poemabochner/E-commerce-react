@@ -8,9 +8,15 @@ import { useEffect, useState } from "react";
 export function Carrinho() {
   const [produtosCarrinho, setProdutosCarrinho] = useState([]);
   const [produtos, setProdutos] = useState([])
-  const total = produtosCarrinho.reduce((total, produtos ) => {
-      return total + produtos.valor * produtos.quantidade;
-  }, 0);
+
+ const [cupon, setCupon] = useState();
+ const total = produtosCarrinho.reduce((total, produtos) => {
+  if(cupon == "joaoMeDa10"){
+    return total + (((produtos.valor * produtos.quantidade)/10)*9);
+  }else{
+    return total + (produtos.valor * produtos.quantidade);
+  }
+}, 0);
   
   useEffect(() => {
       const carregaCarrinho = async () => {
@@ -64,6 +70,8 @@ export function Carrinho() {
         <p className="valorTotal">Total: {total}₽</p>
         </div>
         <button className="fecharCompra" onClick={fecharCompra}>Finalizar compra </button>
+        <input className="CUPOM" type="text" placeholder="Insira o cupom" 
+        onChange={(e) => setCupon(e.target.value)}/>
       </body>
       <footer>
         <Footer />
