@@ -85,7 +85,7 @@ export function Produtos() {
             </div>
           </div>
           <div className="texto">
-            <Link className="filtroColuna" onClick={() => { v = 3; mudaFiltro(); }}>incensos</Link>
+            <Link className="filtroColuna" onClick={() => { v = 3; mudaFiltro(); }}>Incensos</Link>
             <div className="linksColuna">
               {/* <Link to={"/links"} className="linkC">Mais vendidos</Link> */}
             </div>

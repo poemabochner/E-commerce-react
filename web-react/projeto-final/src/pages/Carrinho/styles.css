@@ -1,21 +1,54 @@
-.fundo {
+/* .fundoCarrinho {
     background: linear-gradient(180deg, rgba(155,187,169,1) 40%, rgba(139,212,190,1) 80%);
-}
+} */
 
 .carrinhoBody{
     height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 3rem 0;
 }
 .tabelaCarrinho{
    margin-top: 5rem;
     font-size: larger;
     font-weight: bold;
-    background-color: aqua;
 }
 td {
     padding: 1rem 2rem;
     border: 0;
     border-radius: 0.25rem;
+}
+
+.valorTotalDiv{
+    width: 72.5%;
+}
+
+
+.valorTotal{
+    /* margin-left: 21.8rem; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.fecharCompra{
+        width: 72.5%;
+        border: grey 2px solid;
+        background-color: #ce8056;
+        border-radius: 5%;
+        height: 13.5%;
+        
+}
+
+.BoxCardCarrinho{
+    border-radius: 5px;
+    box-shadow: 5px 3px 3px black;
+    padding: 0.8rem;
+    margin-bottom:0.8rem ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }

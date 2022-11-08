@@ -5,14 +5,12 @@ export function CardCarrinho({teste}) {
     
 
 return (
-    <>
-      <tr>
-        <td><img src={teste.imagem} alt={teste.nome} /></td>
-        <td>{teste.nome}</td>
-        <td>{teste.valor}</td>
-        <td>{teste.quantidade}</td>
-        <td>{valorTotal}</td>
-      </tr>
-    </>
+      <div className="produtosCarrinho">
+        <th className="cardCarrinho"><img src={teste.imagem} alt={teste.nome} /></th>
+        <th className="cardCarrinho">{teste.nome}</th>
+        <th className="cardCarrinho">{teste.valor} ₽</th>
+        <th className="cardCarrinho">{teste.quantidade}</th>
+        <th className="cardCarrinho">{valorTotal} ₽</th>
+      </div>
   );
 }

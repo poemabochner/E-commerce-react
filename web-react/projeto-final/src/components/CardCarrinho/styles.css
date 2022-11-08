@@ -1,0 +1,12 @@
+
+.produtosCarrinho{
+    width: 70vw;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 4px 2px 2px black;
+    padding: 0.8rem;
+    margin-bottom:0.8rem ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

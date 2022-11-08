@@ -20,10 +20,10 @@ export function Carrinho() {
           setProdutos(produto.data);
         };
         carregaCarrinho();
-    })
+    },[])
 
     const fecharCompra = async() => {
-        const fechaCompra = async () =>{
+
                produtosCarrinho.map((carrinhoProduto) => {
                 const retiraEstoque = async () =>{
                const prod = produtos.find((id) => id.id == carrinhoProduto.idProduto);
@@ -36,42 +36,39 @@ export function Carrinho() {
             retiraEstoque();
 
         })
-        }
-        fechaCompra();
-        if(produtosCarrinho.length = 1){
-           await api.delete(`/carrinho/${produtosCarrinho.id}`)
-        }
+        setProdutosCarrinho([]);
 }
 
     return (
-        <div className="fundo">
+        <>
       <header>
-        <Header />
+        <Header/>
       </header>
+
       <body className="carrinhoBody">
-        <table>
-          <thead className="tabelaCarrinho">
-            <tr>
-              <th>Imagem</th>
+            <div className="BoxCardCarrinho">
+              <th >Imagem</th>
               <th>Nome</th>
               <th>Valor</th>
               <th>Quantidade</th>
               <th>Valor Total</th>
-            </tr>
-          </thead>
-          <tbody>
+            </div>
+        <thead className="tabelaCarrinho" >
+          <div >
             {produtosCarrinho.map((produto) => {
               return <CardCarrinho key={produto.id} teste={produto} />;
             })}
-          </tbody>
-        </table>
-        <h1>Valor total do carrinho {total}</h1>
-        <button onClick={fecharCompra}>Fechar compra </button>
+          </div>
+        </thead>
+        <div className="valorTotalDiv">
+        <p className="valorTotal">Total: {total}₽</p>
+        </div>
+        <button className="fecharCompra" onClick={fecharCompra}>Finalizar compra </button>
       </body>
       <footer>
         <Footer />
       </footer>
-    </div>
+    </>
   );
 }
 
