@@ -5,12 +5,13 @@ import {Routes, Route} from 'react-router-dom'
 import { Home } from './pages/Home'
 import { Carrinho } from './pages/Carrinho'
 import { Produtos } from './pages/Produtos'
+import { Erro404} from './pages/Erro404'
 
 function App() {
 
   return(
     <Routes>
-      <Route path="/*" element={<h1>Erro 404</h1>} />
+      <Route path="/*" element={<Erro404 />} />
       <Route path="/" element={<Home />} />
       <Route path="/carrinho" element={<Carrinho />} />
       <Route path="/produtos" element={<Produtos />} />
