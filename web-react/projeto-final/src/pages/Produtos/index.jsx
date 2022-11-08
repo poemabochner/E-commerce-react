@@ -74,48 +74,42 @@ export function Produtos() {
       <div className="Colunas">
         <asside className="col">
           <div className="texto">
-            <h1 onClick={() => {v =1; mudaFiltro();}}>Poke-Bolas</h1>
+            <Link className="filtroColuna" onClick={() => {v =1; mudaFiltro();}}>Poke-Bolas</Link>
             <div className="linksColuna">
-            <Link className="linkC">Mais vendidos</Link>
+            {/* <Link className="linkC">Mais vendidos</Link> */}
             </div>
           </div>
           <div className="texto">
-            <h1 onClick={() => {v =2; mudaFiltro();}}>Medicinas</h1>
+            <Link className="filtroColuna" onClick={() => {v =2; mudaFiltro();}}>Medicinas</Link>
             <div className="linksColuna">
-              <Link className="linkC">Mais vendidos</Link>
+              {/* <Link className="linkC">Mais vendidos</Link> */}
             </div>
           </div>
           <div className="texto">
-            <h1 onClick={() => {v =3; mudaFiltro();}}>incensos</h1>
+            <Link className="filtroColuna" onClick={() => {v =3; mudaFiltro();}}>incensos</Link>
             <div className="linksColuna">
-              <Link to={"/links"} className="linkC">
-                Mais vendidos
-              </Link>
+              {/* <Link to={"/links"} className="linkC">Mais vendidos</Link> */}
             </div>
           </div>
           <div className="texto">
-            <h1 onClick={() => {v =4; mudaFiltro();}}>Itens de Batalha</h1>
+            <Link className="filtroColuna" onClick={() => {v =4; mudaFiltro();}}>Itens de Batalha</Link>
             <div className="linksColuna">
-              <Link to={"/links"} className="linkC">
-                Mais vendidos
-              </Link>
+              {/* <Link to={"/links"} className="linkC">Mais vendidos</Link> */}
             </div>
           </div>
           <div className="texto">
-            <h1 onClick={() => {v =5; mudaFiltro();}}>Mints</h1>
+            <Link  className="filtroColuna" onClick={() => {v =5; mudaFiltro();}}>Mints</Link>
             <div className="linksColuna">
-              <Link to={"/links"} className="linkC">
-                Mais vendidos
-              </Link>
+              {/* <Link to={"/links"} className="linkC">Mais vendidos</Link> */}
             </div>
           </div>
           <div className="texto">
-            <h1 onClick={() => {v =0; mudaFiltro();}}>Todos</h1>
+            <Link className="filtroColuna" onClick={() => {v =0; mudaFiltro();}}>Todos</Link>
            </div>
         </asside>
         <div className="col2">
           <div className="boxDescricao">
-            <h4>Produtos em Destaque</h4>
+            <h4>Produtos</h4>
           </div>
           <div className="CardList">
             {produtosFiltrados.map((produto) => {

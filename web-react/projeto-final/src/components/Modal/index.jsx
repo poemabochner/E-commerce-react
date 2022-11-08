@@ -34,7 +34,7 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <Modal.Header className='tituloModal' closeButton>
-        <h1 className='nomeProduto'>
+        <h1 className='nomeProdutoModal'>
           {v.nome}
         </h1>
       </Modal.Header>

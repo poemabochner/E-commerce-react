@@ -21,3 +21,17 @@
   font-style: bold;
   font-size: 2rem;
 }
+
+@media(max-width:390px){
+  .boxDescricao{
+    font-size: 8vw;
+  }
+}
+
+@media(max-width:185px){
+  .fundo{
+    width: 110%;
+    height: max-content;
+  }
+
+}
