@@ -1,0 +1,21 @@
+.fundo {
+    background: linear-gradient(180deg, rgba(155,187,169,1) 40%, rgba(139,212,190,1) 80%);
+}
+
+.carrinhoBody{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.tabelaCarrinho{
+   margin-top: 5rem;
+    font-size: larger;
+    font-weight: bold;
+    background-color: aqua;
+}
+td {
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 0.25rem;
+}
