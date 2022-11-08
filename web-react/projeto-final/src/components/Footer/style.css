@@ -10,18 +10,20 @@
   align-self: flex-end;
   align-items: center;
   height: max-content;
-  background-color: #8bd4be;
+  background-color: #0b0724;
 }
 
-#titulo {
-  font-size: 3.5rem;
-  margin-bottom: 2vw;
-  margin-top: 0.5vw;
+.titulo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .links {
   display: flex;
   align-items: center;
+  width: inherit;
 }
 
 .link {
@@ -29,9 +31,6 @@
   text-decoration: none;
   padding: 4px;
   margin-inline: 1.5vw;
-  background-color: #ce8056;
-  border: 1px solid none;
-  border-radius: 2vw;
   color: #fff;
 }
 
@@ -48,6 +47,8 @@
 }
 
 #CopyRight {
+  background-color: #fff;
+  width: 100%;
   font-size: 1.5vw;
 }
 
@@ -60,7 +61,7 @@
 }
 
 @media (max-width: 900px) {
-  #titulo {
+  .titulo {
     font-size: 6vw;
     margin-bottom: 2vw;
     margin-top: 0.5vw;
@@ -79,7 +80,7 @@
 }
 
 @media (max-width: 500px) {
-  #titulo {
+  .titulo {
     font-size: 7vw;
     margin-bottom: 2vw;
     margin-top: 0.5vw;
@@ -98,20 +99,13 @@
 }
 
 @media (max-width: 300px) {
-  #titulo {
-    font-size: 10vw;
-    margin-bottom: 2vw;
-    margin-top: 0.5vw;
-  }
+
 
   .link {
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     text-decoration: none;
     padding: 4px;
     margin-inline: 1.5vw;
-    background-color: #ce8056;
-    border: 1px solid none;
-    border-radius: 2vw;
     color: #fff;
   }
 
@@ -126,7 +120,7 @@
 }
 
 @media (max-width: 150px) {
-  #titulo {
+  .titulo {
     font-size: 15vw;
     margin-bottom: 2vw;
     margin-top: 0.5vw;
@@ -143,9 +137,6 @@
     padding: 3px;
     width: 80%;
     margin-top: 1.8vw;
-    background-color: #ce8056;
-    border: 1px solid none;
-    border-radius: 2vw;
     color: #fff;
   }
 
@@ -167,7 +158,7 @@
     align-items: center;
     width: max-content;
   }
-  #titulo {
+  .titulo {
     font-size: 0.9rem;
     margin-bottom: 2vw;
     margin-top: 0.5vw;
@@ -185,9 +176,6 @@
     padding: 3px;
     width: 80%;
     margin-top: 1.8vw;
-    background-color: #ce8056;
-    border: 1px solid none;
-    border-radius: 2vw;
     color: #fff;
   }
 

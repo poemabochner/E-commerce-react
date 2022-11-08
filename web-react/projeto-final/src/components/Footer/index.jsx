@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom'
 export const Footer = () =>{
     return(
         <footer className='rodape'>
-            <div id='titulo'>
-            <h1>Pallett Gym</h1>
+            <div className='titulo'>
+                <Link to={'/'}><img className='img-logo' src="../favicon.png" alt="Logo-Loja" /></Link>
+                <Link to={'/'} className='nome-loja'>Pallet PokeMart</Link>
             </div>
             <div className='links'>
                 <Link to={'/carrinho'} className='link'>Carrinho</Link>
